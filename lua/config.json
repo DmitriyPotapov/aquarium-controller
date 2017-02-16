@@ -1,0 +1,20 @@
+{
+    "ds18b20Pin": 1,
+    "intLedPin": 8,
+    "relay1Pin": 7,
+    "relay2Pin": 6,
+    "mqttServer": "m20.cloudmqtt.com",
+    "mqttWsPort": 11124,
+    "mqttWsPath": "/node",
+    "mqttClientId": "nodemcu",
+    "mqttUserName": "------",
+    "mqttPassword": "------",
+    "relay1State": 1,
+    "relay2State": 0,
+    "pwmDuty": 100,
+    "thresholdTemp": 25,
+    "onHour": 8,
+    "onMin": 0,
+    "offHour": 23,
+    "offMin": 0
+}

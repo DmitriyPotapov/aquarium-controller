@@ -1,0 +1,17 @@
+Flash the following files:
+
+0x00000.bin to 0x00000
+
+0x10000.bin to 0x10000
+
+And, the address for esp_init_data_default.bin depends on the size of your module's flash.
+
+0x7c000 for 512 kB, modules like ESP-01, -03, -07 etc.
+
+0xfc000 for 1 MB, modules like ESP8285, PSF-A85
+
+0x1fc000 for 2 MB
+
+0x3fc000 for 4 MB, modules like ESP-12E, NodeMCU devkit 1.0, WeMos D1 mini
+
+Then, after flashing those binaries format its file system (run "file.format()" using ESPlorer) before flashing any other binaries.
